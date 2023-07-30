@@ -159,13 +159,13 @@ Before running this application, make sure you have the following software insta
 - Clone this repository to your computer
   <pre>
   <code>
-  git clone https://github.com/username/project-express-mongodb.git
+  git clone https://github.com/albayaaan/gigih-mid-term.git
   </code>
   </pre>
 - Navigate to the project directory
   <pre>
   <code>
-  cd project-express-mongodb
+  cd gigih-mid-term
   </code>
   </pre>
 - Install all dependencies
