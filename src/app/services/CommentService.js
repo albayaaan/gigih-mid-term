@@ -17,9 +17,8 @@ async function getAllCommentsByVideoId(videoId) {
 }
 
 async function createComment(videoId, commentData) {
-    const video = await VideoRepository.getVideoById(videoId);
     const comment = await CommentRepository.createComment(commentData);
-    console.log(comment);
+    const video = await VideoRepository.postComment(videoId, comment._id);
     return comment;
 }
 
