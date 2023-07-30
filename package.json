@@ -1,0 +1,18 @@
+{
+    "name": "project_mid_term",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Abyan",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon ./src/index"
+    },
+    "dependencies": {
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "mongoose": "^7.4.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
